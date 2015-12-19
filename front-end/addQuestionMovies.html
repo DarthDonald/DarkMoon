@@ -1,0 +1,45 @@
+<html>
+<head>
+    <title></title>
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body class="home">
+    
+    <div class="menu">
+        <img src="../front-end/img/pentogram.jpg" alt="" class="logo">
+        <p><a href="home.php">My Page</a></p>
+        <p><a href="friends.html">My Friends</a></p>
+        <p><a href="messages.html">My Messages</a></p>
+        <p><a href="challenges.html">Challenges</a></p>
+        <p><a href="market.html">Market</a></p>
+        <p><a href="settings.html">Settings</a></p>
+        <p><a href="signIn.html">Exit</a></p>
+    </div>
+    
+    <div class="contentAddQuestionMovies">
+        <form action="../back-end/addQuestionMovies.php" method = "post">
+
+            <h4 style="text-align: center">Add Your Question</h4>
+            <p><textarea name="text" id="addQuestion" cols="26" rows="5"></textarea></p>
+            
+            <p class="label">True Answer</p>
+            <p><input type="text" name="trueAnswer"></p>
+
+            <p class="label">False Answer 1</p>
+            <p><input type="text" name="falseAnswer1"></p>
+
+            <p class="label">False Answer 2</p>
+            <p><input type="text" name="falseAnswer2" style="border-radius: 0 0 16px 0"></p>
+
+            <p style="text-align: center"><input type="submit" id="signUpButton" value="Submit"></p>
+
+        </form>
+    </div>
+    
+    <script src="js/jquery.min.js"></script>
+    <script src="js/scriptChallenges.js"></script>
+    
+    
+</body>
+</html>

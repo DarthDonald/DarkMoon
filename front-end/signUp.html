@@ -1,0 +1,50 @@
+<html>
+<head>
+    <title>SignUp</title>
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body class="signUp">
+    
+    <a href="welcome.html"><div class="nameSite">
+        <img src="img/pentogram.jpg" alt="" class="mainLogo">
+        <h1 id="darkMoon">DARK MOON</h1>
+        <img src="img/pentogram.jpg" alt="" class="mainLogo">
+    </div></a>
+
+    <div class="signUpContent">
+        <div class="signUpContentBlock">
+            <form action="../back-end/signUp.php" method="post" enctype="multipart/form-data">
+                
+                <h2>Sign Up</h2>
+
+                <p class="label">FIRST NAME</p>
+                <p><input type="text" name="firstName"></p>
+
+                <p class="label">LAST NAME</p>
+                <p><input type="text" name="lastName"></p>
+
+                <p class="label">EMAIL</p>
+                <p><input type="text" name="email"></p>
+
+                <p class="label">PASSWORD</p>
+                <p><input type="password" name="password"></p>
+
+                <p class="label">CONFIRM PASSWORD</p>
+                <p><input type="password" name="confirmPassword"></p>
+
+                <p id="photoLine"><input type="button" id="sendPhoto" onclick="clickMe()" value="Upload Photo"></p>
+                
+                <p><input type="file" name="photo" id="getBack" >
+</p>
+
+                <p style="text-align: center"><input type="submit" id="signUpButton" value="Submit"></p>
+
+            </form>
+        </div>
+    </div>
+    
+    <script src="js/clickOnMe.js"></script>
+    
+</body>
+</html>

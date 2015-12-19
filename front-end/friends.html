@@ -1,0 +1,44 @@
+<html>
+<head>
+    <title>Friends</title>
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/style.css">
+    
+    <script src="http://ajax.googleapis.com/ajax/libs/angularjs/1.3.5/angular.min.js"></script>
+</head>
+<body class="home" ng-app="myFriends">
+    
+    <div class="menu">
+        <img src="./img/pentogram.jpg" alt="" class="logo">
+        <p><a href="home.php">My Page</a></p>
+        <p><a href="friends.html">My Friends</a></p>
+        <p><a href="messages.html">My Messages</a></p>
+        <p><a href="challenges.html">Challenges</a></p>
+        <p><a href="market.html">Market</a></p>
+        <p><a href="settings.html">Settings</a></p>
+        <p><a href="signIn.html">Exit</a></p>
+    </div>
+    
+    <div class="contentFriends" ng-controller="FriendsController">
+        <h2 class="ng-title"> {{ title }} </h2>
+        <div class="friend" ng-repeat="friend in friends">
+            <img ng-src="{{ friend.cover }}" class="ng-img" alt="">
+            <div class="friendsInfo">
+                <p class="ng-name"> {{ friend.name }} </p>
+                <p class="ng-secondName"> {{ friend.secondName }} </p>
+            </div>
+            <div class="but">
+                <button class="buy">MESSAGE</button><br><br><br><br>
+                <button class="buy">INFO</button><br><br><br><br>
+                <button class="buy">ADD</button>
+            </div>
+        </div>
+    </div>
+    
+    <script src="js/jquery.min.js"></script>
+    <script src="js/friends.js"></script>
+    <script src="js/controllers/FriendsController.js"></script>
+    
+    
+</body>
+</html>

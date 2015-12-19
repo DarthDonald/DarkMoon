@@ -1,0 +1,732 @@
+
+
+/*SignUp*/
+
+.signUp{
+    margin: auto;
+    position: relative;
+    color: #aaa;
+    background: #000;
+}
+
+.signUpContent{
+    padding: 30px 100px;
+    margin: 0;
+    background: #000;
+}
+
+.signUpContentBlock{
+    padding: 30px 13%;
+    border-radius: 32px;
+    width: 500px;
+    margin: auto;
+    border: 1px solid #aaa;
+}
+
+.label{
+    font-size: 12px;
+    font-weight: 600;
+    color: #aaaaaa;
+    padding: 0;
+}
+
+input{
+    width: 200px;
+    font-size: 12px;
+    border: 1px solid #aaaaaa;
+    background: #c9c9c9;
+    margin: 4px 0;
+    color: #000;
+}
+
+form h2{
+    text-align: center;
+}
+
+#signUpButton{
+    width: 80%;
+    padding: 5px 15px;
+    margin: auto;
+    position: relative;
+    border: 0;
+    background: #000;
+    border: 2px solid #aaa;
+    color: #000;
+    font-size: 16px;
+    text-align: center;
+    color: #aaa;
+    border-radius: 11px;
+    margin-top: 10px;
+}
+
+#getBack{
+    display: none;
+}
+
+#sendPhoto{
+    width: 70%;
+    padding: 5px 15px;
+    margin: auto;
+    position: relative;
+    border: 0;
+    background: #000;
+    border: 2px solid #aaa;
+    color: #000;
+    font-size: 11px;
+    text-align: center;
+    color: #aaa;
+    border-radius: 11px;
+}
+
+#photoLine{
+    text-align: center;
+}
+
+/*SignIn*/
+
+.signIn{
+    margin: auto;
+    position: relative;
+    color: #aaa;
+    font-family: ;
+    background: #000;
+}
+
+.signInContent{
+    padding: 30px 100px;
+    margin: 0;
+    background: #000;
+}
+
+.signInContentBlock{
+    padding: 30px 13%;
+    border-radius: 32px;
+    width: 500px;;
+    margin: auto;
+    margin: auto;
+    border: 1px solid #aaa;
+}
+
+#signInButton{
+    width: 80%;
+    padding: 5px 15px;
+    margin: auto;
+    position: relative;
+    border: 0;
+    background: #000;
+    border: 2px solid #aaa;
+    color: #000;
+    font-size: 16px;
+    text-align: center;
+    color: #aaa;
+    border-radius: 11px;
+    margin-top: 10px;
+}
+
+#signUp{
+    margin: 30px 30%;
+    color: #aaa;
+}
+
+/*Home*/
+
+.home{
+    background: #000;
+    display: flex;
+    color: #aaa;
+}
+
+.contentHome{
+    width: 80%;
+    padding: 30px 30px;
+}
+
+.profile{
+    display: flex;
+}
+
+.mainInfo{
+    width: 30%;
+    text-align: center;
+}
+
+.info{
+    width: 70%;
+}
+
+.infoUser{
+    display: flex;
+}
+
+.classUser, .levelUser{
+    padding: 5px 30px;
+    min-width: 20%;
+}
+
+.photoUser{
+    width: 170px;
+    height: 170px;
+    border: 1px solid #aaa;
+}
+
+.calendar{
+    text-align: center;
+}
+
+.calendar h2{
+    margin: 40px 0; 
+}
+
+.cellCalendar{
+    width: 12%;
+    height: 25%;
+    text-align: left;
+    vertical-align: top;
+    padding: 9px 9px;
+}
+
+/*Menu*/
+
+.menu{
+    border-right: 0px solid #aaa;
+    width: 20%;
+    position: static;
+    padding: 30px 40px;
+    height: 100%;
+}
+
+.menu a{
+    color: #aaa;
+    font-size: 15px;
+    width: 100%;
+    padding: 5px 0;
+    margin: auto;
+}
+
+.menu p{
+    font-size: 15px;
+    width: 100%;
+    padding: 5px 15px;
+    margin: auto;
+}
+
+.menu p:hover{
+    text-decoration: none;
+    background: rgba(170, 170, 170, 0.25);
+}
+
+.logo{
+    height: 99px;
+    width: 100px;
+    margin-bottom: 20px;
+}
+
+/*Challenges*/
+
+.contentChallenges{
+    width: 80%;
+    padding: 30px 30px;
+    height: 100%;
+    display: flex;
+}
+
+.challeng{
+    width: 15%;
+    height: 90%;
+    margin: 20px 0;
+    vertical-align: middle;
+    opacity: 0.5;
+}
+
+.challeng a{
+    text-decoration: none;
+    color: #d4d3d3;
+}
+
+.books{
+    background: url("../img/061TT03_Evil-Dead-Book.jpg") center center no-repeat;
+    background-size: cover;
+}
+
+.history{
+    background: url("../img/ZL67Io3K3VQ.jpg") center center no-repeat;
+    background-size: cover;
+}
+
+.movies{
+    background: url("../img/13-friday.jpg") center center no-repeat;
+    background-size: cover;
+}
+
+.music{
+    background: url("../img/Pipe_Organ_of_the_Oude_Kerk_dark_2975.jpg") center center no-repeat;
+    background-size: cover;
+}
+
+.games{
+    background: url("../img/slender.jpg") center center no-repeat;
+    background-size: cover;
+}
+
+.challenge a{
+    vertical-align: middle;
+}
+
+.challeng h3{
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    text-align: center;
+}
+
+.activeChallenge{
+    width: 40%;
+    opacity: 1;
+}
+
+/*MoviesChallenge*/
+
+.contentChallengesMovies{
+    width: 80%;
+    padding: 50px 30px;
+    height: 100%;
+    text-align: center;
+}
+
+.game h1{
+    margin: 0;
+}
+
+.tripleImg img{
+    width: 30%;
+ 
+    margin: 0;
+}
+
+divStartGame{
+    
+}
+
+.startGame{
+    padding: 20px 30px;
+    border: 4px solid #aaa;
+    background: #000;
+    font-size: 25px;
+    font-weight: 600;
+    margin: 0;
+    vertical-align: middle;
+    margin-right: 10px;
+}
+
+.contentChallengesMovies a{
+    color: #aaa;
+}
+
+/*AddQuestionMovies*/
+
+.contentAddQuestionMovies{
+    padding: 50px 25%;
+}
+
+.contentAddQuestionMovies form{
+    border-radius: 32px;
+    padding: 30px 80px;
+    border: 1px solid #aaa;
+}
+
+.contentAddQuestionMovies textarea{
+    background: #aaa;
+    color: #000;
+    border-radius: 16px 0 0 0;
+}
+
+/*GameMovies*/
+
+.contentGameMovies{
+    margin: 5% 30%;
+    padding: 4% 5%;
+    border-radius: 16px;
+    border:1px solid #aaa;
+}
+
+.contentGameMovies h1{
+    text-align: center;
+}
+
+.contentGameMovies form p input{
+    width: 10%;
+}
+
+#giveAnswer{
+    color: #aaa;
+    background: #000;
+    border: 2px solid #aaa;
+    padding: 10px 30px;
+    text-align: center;
+    margin: 5px 2%;
+}
+
+/*Market*/
+
+.contentMarket{
+    width: 100%;
+}
+
+.goods{
+    width: 90%;
+    display: flex;
+    border: 1px solid #aaa;
+    padding: 20px 10px;
+    margin: 20px 20px;
+    color: #aaa;
+    text-decoration: none;
+}
+
+.goodsInfo{
+    margin: auto 30px;
+    width: 30%;
+}
+
+.ng-img{
+    height: 200px;
+    width: 200px;
+    image-resolution: snap;
+}
+
+.ng-title{
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.ng-name, .ng-price, .ng-secondName{
+    font-size: 30px;
+}
+
+.contentMarket a:hover{
+    text-decoration: none;
+}
+
+.but{
+    width: 45%;
+    margin-right: 0;
+}
+
+.buy{
+    float: right;
+    padding: 10px 30px;
+    width: 160px;
+    text-align: center;
+    border: 2px solid #aaa;
+    background: #000;
+    border-radius: 16px;
+}
+
+/*Welcome*/
+
+.nameSite{
+    width: 100%;
+    height: 20%;
+    background: #000;
+    display: flex;
+    padding: 0 20%;
+}
+
+.mainLogo{
+    height: 100%;
+}
+
+#darkMoon{
+    color: #aaa;
+    padding: 2% 9%;
+    font-size: 60px;
+}
+
+.supportMain{
+    width: 100%;
+    height: 90%;
+    background: url("../img/1152293-hell.jpg") center center no-repeat;
+    background-size: cover;
+}
+
+.supportMain h2{
+    margin: 0;
+    text-align: center;
+    padding-top: 10%;
+    padding-bottom: 5%;
+    font-weight: 700;
+    color: #aaa;
+    font-size: 50px;
+}
+
+.supportMain h5{
+    margin: 0;
+    text-align: center;
+    padding-bottom: 5%;
+    font-weight: 700;
+    color: #aaa;
+    font-size: 30px;
+}
+
+.btnGroup{
+    margin: 0;
+    text-align: center;
+    padding-bottom: 5%;
+    color: #aaa;
+    font-size: 20px;
+}
+
+.btn{
+    background: #000;
+    border: 2px solid #aaa;
+    padding: 10px 30px;
+    font-weight: 700;
+    color: #aaa;
+    border-radius: 10x;
+}
+
+.supportGame{
+    background: #000;
+    height:80%;
+    width: 100%;
+}
+
+.supportGame h2{
+    margin: 0;
+    text-align: center;
+    padding-top: 3%;
+    padding-bottom: 3%;
+    font-weight: 700;
+    color: #aaa;
+    font-size: 30px;
+}
+
+.supportGame h5{
+    margin: 0;
+    text-align: center;
+    padding-bottom: 3%;
+    font-weight: 700;
+    color: #aaa;
+    font-size: 15px;
+}
+
+.imgGroup{
+    display: ;
+    width: 100%;
+    color: #aaa;
+    padding: 5% 0;
+    display: flex;
+}
+
+.categories{
+    width: 15%;
+    margin: 0 4%;
+    color: #aaa;
+    text-align: center;
+}
+
+.categories img{
+    height: 180px;
+    width: 150px;
+}
+
+.evilMarket{
+    height: 60%;
+    width: 100%;
+    background: url("../img/4755148698_87e2a64739_z.jpg") center center no-repeat;
+    background-size: cover;
+}
+
+.evilMarket h2{
+    margin: 0;
+    text-align: center;
+    padding-top: 12%;
+    padding-bottom: 3%;
+    font-weight: 700;
+    color: #aaa;
+    font-size: 30px;
+}
+
+.evilMarket h5{
+    margin: 0;
+    text-align: center;
+    padding-bottom: 3%;
+    font-weight: 700;
+    color: #aaa;
+    font-size: 15px;
+}
+
+.classes{
+    background: #000;
+    height:80%;
+    width: 100%;
+}
+
+.classes h2{
+    margin: 0;
+    text-align: center;
+    padding-top: 3%;
+    padding-bottom: 3%;
+    font-weight: 700;
+    color: #aaa;
+    font-size: 30px;
+}
+
+.classes h5{
+    margin: 0;
+    text-align: center;
+    padding-bottom: 2%;
+    font-weight: 700;
+    color: #aaa;
+    font-size: 15px;
+}
+
+.class{
+    width: 15%;
+    margin: 0 5%;
+    color: #aaa;
+    text-align: center;
+}
+
+.class a{
+    color: #aaa;
+    text-decoration: underline;
+}
+
+.class img{
+    height: 200px;
+    width: 200px;
+}
+
+.footer{
+    background: #000;
+    height: 30%;
+    color: #aaa;
+    display: flex;
+}
+
+.socialNetworks{
+    width: 50%;
+    margin-left: 5%;
+}
+
+.socialNetworks h2{
+    margin: 0;
+    text-align: left;
+    padding-top: 3%;
+    padding-bottom: 3%;
+    padding-left: 3%;
+    font-weight: 700;
+    color: #aaa;
+    font-size: 30px;
+}
+
+.socialNetworks a{
+    color: #aaa;
+    margin: 5% 3%;
+}
+
+.team{
+    width: 50%;
+    text-align: right;
+    margin-right: 5%;
+    margin-top: 2%;
+}
+
+/*Vampire*/
+
+.vampire{
+    background: url("../img/vampire.jpg") center center no-repeat;
+    background-size: cover; 
+}
+
+.vampireMain{
+    background: rgba(0, 0, 0, 0.5);
+    height: 80%;
+    width: 100%;
+}
+
+.vampireInfo{
+    color: #aaa;
+    width: 40%;
+    padding: 20px 40px;
+}
+
+.vampire a:hover{
+    color: #aaa;
+}
+
+.vampireInfo h1{
+    margin-top: 0;
+    padding: 20px 0;
+    
+}
+
+.ghost{
+    background: url("../img/ghost.jpg") center center no-repeat;
+    background-size: cover; 
+}
+
+.zombie{
+    background: url("../img/zombies.jpg") center center no-repeat;
+    background-size: cover; 
+}
+
+.warlock{
+    background: url("../img/warlock.jpg") center center no-repeat;
+    background-size: cover; 
+}
+
+/*Messages*/
+
+.contentChat{
+    text-align: center;
+    padding: 2% 15%;
+}
+
+.contentChat textarea{
+    background: #000;
+    color: #aaa;
+    resize: none;
+    margin-bottom: 20px;
+    border-radius: 16px;
+}
+
+/*Friends*/
+
+.contentFriends{
+    width: 100%;
+}
+
+.friend{
+    width: 90%;
+    display: flex;
+    border: 1px solid #aaa;
+    padding: 20px 10px;
+    margin: 20px 20px;
+    color: #aaa;
+    text-decoration: none;
+}
+
+.friendsInfo{
+    margin: auto 30px;
+    width: 30%;
+}
+
+.contentFriends a:hover{
+    text-decoration: none;
+}
+
+/*Settings*/
+
+.contentSettings{
+    text-align: center;
+    padding: 5% 20%;
+}
+
+.contentSettings textarea{
+   background: #000;
+    color: #aaa;
+    resize: none;
+    margin-bottom: 20px;
+    border-radius: 16px;
+}

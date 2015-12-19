@@ -1,0 +1,35 @@
+<html>
+<head>
+    <title>SignIn</title>
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body class="signIn">
+    
+    <a href="welcome.html"><div class="nameSite">
+        <img src="img/pentogram.jpg" alt="" class="mainLogo">
+        <h1 id="darkMoon">DARK MOON</h1>
+        <img src="img/pentogram.jpg" alt="" class="mainLogo">
+    </div></a>
+
+    <div class="signInContent">
+        <div class="signInContentBlock">
+            <form action="../back-end/signIn.php" method="post">
+                <h2>Sign In</h2>
+
+                <p class="label">EMAIL</p>
+                <p><input type="text" name="email"></p>
+
+                <p class="label">PASSWORD</p>
+                <p><input type="password" name="password"></p>
+                
+                <p  style="text-align: center"><input type="submit" id="signInButton" value="Sign In"></p>
+                
+                <a href="signUp.html" id="signUp">Join To Us</a>
+
+            </form>
+        </div>
+    </div>
+    
+</body>
+</html>
